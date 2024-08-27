@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#canvas {
+    border: 1px solid #000;
+    background-color: #fff;
+}
+
+#controls {
+    margin-top: 10px;
+}
+
+button, input {
+    margin: 0 5px;
+}
